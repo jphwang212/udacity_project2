@@ -9,8 +9,8 @@ class Processor {
 
   // TODO: Declare any necessary private members
  private:
-  unsigned long int previdle{0}, prevtotal{0}, prevtime{0};
-  double cpuutil_;
+  float previdle{0}, prevtotal{0}, prevtime{0};
+  float cpuutil_;
 };
 
 #endif

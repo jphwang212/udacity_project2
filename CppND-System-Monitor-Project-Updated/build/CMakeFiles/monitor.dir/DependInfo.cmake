@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/format.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/format.cpp.o"
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/main.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/main.cpp.o"
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/process.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/process.cpp.o"
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/processor.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
-  "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/src/system.cpp" "/home/jpeezy/Desktop/project_2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/system.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/format.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/format.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/main.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/main.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/process.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/process.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/processor.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
+  "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/src/system.cpp" "/home/workspace/udacity_project2/udacity_project2/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/system.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -29,5 +29,6 @@ string Format::ElapsedTime(long seconds) {
   }
   else
     sec = std::to_string(seconds);
+
   return (hours + ":" + minutes + ":" + sec);
  }

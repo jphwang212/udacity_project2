@@ -4,15 +4,14 @@
 #include <string>
 
 using std::stof;
-using std::stol;
 
 // TODO: Return the aggregate CPU utilization
 float Processor::Utilization() {
-   unsigned long int idle, nonidle, total;
-   unsigned long int totald, idled;
+   float idle, nonidle, total;
+   float totald, idled;
    std::vector<std::string> util_data = LinuxParser::CpuUtilization();
-   idle = stol(util_data[3]) + stol(util_data[4]);
-   nonidle = stol(util_data[0]) + stol(util_data[1]) + stol(util_data[2]) + stol(util_data[5]) + stol(util_data[6]) + stol(util_data[7]);
+   idle = stof(util_data[3]) + stof(util_data[4]);
+   nonidle = stof(util_data[0]) + stof(util_data[1]) + stof(util_data[2]) + stof(util_data[5]) + stof(util_data[6]) + stof(util_data[7]);
    total = idle + nonidle;
    totald = total - prevtotal;
    idled = idle - previdle;
