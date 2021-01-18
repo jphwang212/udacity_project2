@@ -37,7 +37,7 @@ float Process::CpuUtilization() {
    float starttime = stof(times[4]);
    float total_time = utime + stime + cutime + cstime;
    float seconds = uptime - (starttime / sysconf(_SC_CLK_TCK));
-   cpuutil_ = 100 * (((total_time) / sysconf(_SC_CLK_TCK)) / seconds);
+   cpuutil_ = (((total_time) / sysconf(_SC_CLK_TCK)) / seconds);
    return cpuutil_;
  }
 
