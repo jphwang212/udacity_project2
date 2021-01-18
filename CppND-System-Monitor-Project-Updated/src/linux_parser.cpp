@@ -225,9 +225,10 @@ string LinuxParser::Uid(int pid) {
    if(filestream.is_open()){
      std::getline(filestream, line);
      std::istringstream linestream(line);
-     linestream >> key >> value;
+     while(linestream >> key >> value){
      if(key == "Uid:"){
         uid = value;
+     }
      }
    }
 return uid;
@@ -243,9 +244,10 @@ string LinuxParser::User(int pid) {
       while(std::getline(filestream, line)){
          std::replace(line.begin(), line.end(), ':', ' ');
          std::istringstream linestream(line);
-         linestream >> key >> space >> value;
-         if(stoi(value) == pid){
+         while(linestream >> key >> space >> value){
+         if(value == Uid(pid)){
             user = key;
+         }
          }
       }
    }
