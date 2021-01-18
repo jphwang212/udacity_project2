@@ -106,34 +106,6 @@ float LinuxParser::UpTime() {
    return total;
 }
 
-// TODO: Read and return the number of jiffies for the system
-/*long LinuxParser::Jiffies() {
-   long answer;
-   for(int i = 0; i < 8; i++){
-     answer += stol(LinuxParser::CpuUtilization()[i]);
-   }
-    return answer;
-   }
-
-// TODO: Read and return the number of active jiffies for a PID
-// REMOVE: [[maybe_unused]] once you define the function
-//long LinuxParser::ActiveJiffies(int pid) {}
-
-
-// TODO: Read and return the number of active jiffies for the system
-long LinuxParser::ActiveJiffies() {
-   long answer;
-    for(int i = 0; i < 8; i++){
-       if(i != 3 && i != 4){
-          answer += stol(LinuxParser::CpuUtilization()[i]);
-       }
-    }
-return  answer; }
-
-// TODO: Read and return the number of idle jiffies for the system
-long LinuxParser::IdleJiffies() {
-   return stol(LinuxParser::CpuUtilization()[3]) + stol(LinuxParser::CpuUtilization()[4]); }
-*/
 // TODO: Read and return CPU utilization
 vector<string> LinuxParser::CpuUtilization() {
    string line;
@@ -297,14 +269,7 @@ long LinuxParser::UpTime(int pid) {
       }
       value = stol(key);
       return value/sysconf(_SC_CLK_TCK);
-   //   std::getline(stream, line);
-   //   std::istringstream linestream(line);
-   //   while(linestream >> key){
-   //     if(counter == 22){
-   //       value = stol(key);
-   //     }
-   //    counter++;
-   //   }
+
    }
    return value/sysconf(_SC_CLK_TCK);
 //return value;
